@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-  def contact_email(name, email, body)
+  def contact(name, email, body)
     @name = name
     @email = email
     @body = body
