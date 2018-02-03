@@ -1,0 +1,21 @@
+{
+  "name": "Feed Smash",
+  "description": "The production application for Feed Smash",
+  "keywords": [
+    "community",
+    "network",
+    "rss",
+    "aggregator"
+  ],
+  "website": "http://feedsmash.org",
+  "repository": "https://github.com/johlym/feedsmash",
+  "image": "heroku/ruby",
+  "addons": [
+    {
+      "plan": "sendgrid:starter"
+    },
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
