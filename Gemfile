@@ -38,6 +38,7 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'font-awesome-rails', '~> 4.7'
 gem 'sendgrid', '~> 1.2.4'
+gem 'devise', '~> 4.4.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
