@@ -11,7 +11,7 @@ class ContactsController < ApplicationController
       body = params[:contact][:body]
       ContactMailer.contact(name, email, body).deliver
 
-      flash[:success] = "Message sent."
+      flash[:success] = "You email is on its way!"
       redirect_to contact_path
     else
       flash[:danger] = @contact.errors.full_messages.join(", ")
